@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D0FFDCD4-BD96-0060-661C-FE589E100CD4}</ProjectGuid>
+    <ProjectGuid>{0314B8B4-16BB-8598-9195-5663BF13CA83}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,43 +53,43 @@
     <UnityVersion>2020.3.19f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\loadingBar\scripts\simplerotate.cs" />
+    <Compile Include="Assets\Title\script\ButtonSE.cs" />
     <Compile Include="Assets\Scenes\Script\Switch.cs" />
     <Compile Include="Assets\Scenes\Script\ObjectDistance.cs" />
+    <Compile Include="Assets\Scenes\Script\DestroyPlayer.cs" />
+    <Compile Include="Assets\script\ColorChangable.cs" />
+    <Compile Include="Assets\script\IColorChangable.cs" />
+    <Compile Include="Assets\Title\script\GameSystem1.cs" />
+    <Compile Include="Assets\loadingBar\scripts\SimpleLoading.cs" />
+    <Compile Include="Assets\script\PlaySound.cs" />
+    <Compile Include="Assets\Polytope Studio\Lowpoly Medieval Demos\Environment_Free\MouseLook.cs" />
+    <Compile Include="Assets\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
+    <Compile Include="Assets\Scenes\Script\GameManager.cs" />
+    <Compile Include="Assets\script\CameraMove2.cs" />
+    <Compile Include="Assets\Clean Title Transitions\Scripts\CTTDemoManager.cs" />
+    <Compile Include="Assets\Teleportation Pad\CustomTeleporter.cs" />
     <Compile Include="Assets\Scenes\LoadingBar\scripts\Loading.cs" />
     <Compile Include="Assets\Tile3D\Vector3Ext.cs" />
     <Compile Include="Assets\Scenes\Script\MainCamera.cs" />
     <Compile Include="Assets\Tile3D\Tile3D.cs" />
     <Compile Include="Assets\Scenes\Script\ChangeColor.cs" />
-    <Compile Include="Assets\Scenes\Title関連\GameSystem.cs" />
+    <Compile Include="Assets\Scenes\Title髢｢騾｣\GameSystem.cs" />
+    <Compile Include="Assets\Title\script\TitleSoundmaster.cs" />
     <Compile Include="Assets\Scenes\Script\WarpPoint.cs" />
     <Compile Include="Assets\Scenes\Script\Camerafollow.cs" />
+    <Compile Include="Assets\Polytope Studio\Lowpoly Medieval Demos\Environment_Free\PlayerMovement.cs" />
     <Compile Include="Assets\Scenes\Script\Gamesystem.cs" />
     <Compile Include="Assets\Scenes\LoadingBar\scripts\loadingtext.cs" />
     <Compile Include="Assets\Scenes\Script\CubeMove.cs" />
     <Compile Include="Assets\Scenes\Script\PlaySE.cs" />
     <Compile Include="Assets\Scenes\LoadingBar\scripts\loadingcolorful.cs" />
     <Compile Include="Assets\Scenes\Script\GameEnd.cs" />
+    <Compile Include="Assets\loadingBar\scripts\rotatetotate.cs" />
     <Compile Include="Assets\Scenes\LoadingBar\scripts\loadingbar.cs" />
-    <Compile Include="Assets\script\IColorChangable.cs" />
-    <Compile Include="Assets\Title関連\script\GameSystem1.cs" />
-    <Compile Include="Assets\Polytope Studio\Lowpoly Medieval Demos\Environment_Free\PlayerMovement.cs" />
-    <Compile Include="Assets\Teleportation Pad\CustomTeleporter.cs" />
-    <Compile Include="Assets\script\PlaySound.cs" />
-    <Compile Include="Assets\script\ColorChangable.cs" />
-    <Compile Include="Assets\Title関連\script\ButtonSE.cs" />
-    <Compile Include="Assets\loadingBar\scripts\SimpleLoading.cs" />
     <Compile Include="Assets\script\Timescript.cs" />
     <Compile Include="Assets\script\RotateSE.cs" />
-    <Compile Include="Assets\loadingBar\scripts\simplerotate.cs" />
-    <Compile Include="Assets\Scenes\Script\GameManager.cs" />
-    <Compile Include="Assets\Title関連\script\TitleSoundmaster.cs" />
-    <Compile Include="Assets\Polytope Studio\Lowpoly Medieval Demos\Environment_Free\MouseLook.cs" />
-    <Compile Include="Assets\script\CameraMove2.cs" />
-    <Compile Include="Assets\Clean Title Transitions\Scripts\CTTDemoManager.cs" />
-    <Compile Include="Assets\Scenes\Script\DestroyPlayer.cs" />
-    <Compile Include="Assets\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
-    <Compile Include="Assets\loadingBar\scripts\rotatetotate.cs" />
-    <Compile Include="Assets\Title関連\script\GameSystem2.cs" />
+    <Compile Include="Assets\Title\script\GameSystem2.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
