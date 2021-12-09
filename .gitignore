@@ -35,4 +35,4 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-PazPaz/Logs/shadercompiler-UnityShaderCompiler.exe1.log
+*.log
